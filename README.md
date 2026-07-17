@@ -842,6 +842,6 @@ By Day 80, Akawo3 should include:
 
 Akawo3 is more than a portfolio project.
 
-It is an opportunity to learn how production-grade fintech systems are designed, built, secured, tested, deployed, and maintained.
+This is an opportunity to learn how production-grade fintech systems are designed, built, secured, tested, deployed, and maintained.
 
 The ultimate goal is not merely to complete the application, but to become a **Rust Backend Engineer**, **Blockchain Engineer**, and **Software Engineer** capable of designing and delivering production-ready systems with confidence.
