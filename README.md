@@ -4,9 +4,11 @@
 
 Akawo3 is an open-source decentralized rotating savings platform inspired by the traditional Akawo, Esusu, and Ajo model. It brings community-driven savings into a transparent, auditable, and modern digital experience using Rust, Stellar Soroban, Axum, Dioxus, PostgreSQL, and Valkey.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Built with Rust](https://img.shields.io/badge/Built%20with-Rust-orange.svg)](https://www.rust-lang.org/)
-[![Powered by Soroban](https://img.shields.io/badge/Powered%20by-Soroban-blue.svg)](https://soroban.stellar.org/)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Built%20with-Rust-orange.svg" alt="Built with Rust" /></a>
+  <a href="https://soroban.stellar.org/"><img src="https://img.shields.io/badge/Powered%20by-Soroban-blue.svg" alt="Powered by Soroban" /></a>
+</p>
 
 ## Why Akawo3?
 
