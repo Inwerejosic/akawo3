@@ -47,6 +47,38 @@ akawo3/
 └── scripts/
 ```
 
+## Architecture Overview
+
+The platform is designed as a layered system that combines a modern web frontend, secure backend services, blockchain contracts, and supporting infrastructure.
+
+```text
+                    Internet
+                        │
+                  Cloudflare
+                        │
+                 Caddy / Nginx
+                        │
+                Docker Compose
+                        │
+      ┌─────────────────┼─────────────────┐
+      │                 │                 │
+  Dioxus UI        Axum API         Worker Service
+      │                 │                 │
+      │          ┌──────┴──────┐          │
+      │          │             │          │
+      ▼          ▼             ▼          ▼
+ Wallet Auth PostgreSQL     Valkey     Email Queue
+      │
+      ▼
+ Stellar RPC
+      │
+      ▼
+ Soroban Smart Contract
+      │
+      ▼
+ Stellar Ledger
+```
+
 ## Getting Started
 
 ### Prerequisites
