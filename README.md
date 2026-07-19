@@ -2,7 +2,7 @@
 
 > Traditional Savings. Modern Trust.
 
-Akawo3 is an open-source decentralized rotating savings platform inspired by the traditional Akawo, Esusu, and Ajo model. It brings community-driven savings into a transparent, auditable, and modern digital experience using Rust, Stellar Soroban, Axum, Dioxus, PostgreSQL, and Valkey.
+Akawo3 is an open-source decentralized rotating savings platform inspired by the traditional Akawo, Esusu, and Ajo model. It brings community-driven savings into a transparent, auditable, and modern digital experience using Rust, Stellar Soroban, Axum/Actix-Web, Dioxus, PostgreSQL, and Valkey.
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
@@ -25,7 +25,7 @@ Akawo3 exists to make traditional savings circles more trustworthy, more accessi
 ## Tech Stack
 
 - Rust
-- Axum
+- Axum/Actix-Web
 - Tokio
 - SQLx and PostgreSQL
 - Valkey
